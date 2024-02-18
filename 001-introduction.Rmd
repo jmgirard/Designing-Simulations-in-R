@@ -330,8 +330,8 @@ These are useful as documentation for sketching out a general plan of how to org
 ### `%>%` (Pipe) dreams
 
 We extensively use the "pipe" in our code.
-For those unfamiliar, we here spend a moment discussing it, but see R for Data Science, Chapter 18, for more.
-The `%>%` command allows you to apply a __sequence of functions__ to a data frame; this makes your code read like a story book.
+For those unfamiliar, we here spend a moment discussing it, but see R for Data Science, [Chapter 4.3](https://r4ds.hadley.nz/workflow-style#sec-pipes), for more.
+The `%>%` or `|>` command allows you to apply a __sequence of functions__ to a data frame; this makes your code read like a story book.
 
 With conventional code we have
 

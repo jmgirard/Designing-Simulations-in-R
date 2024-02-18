@@ -202,7 +202,7 @@ A function is a bundle of commands that you can name, so you can use those comma
 You can think of it as a machine, with a hopper that takes some inputs, and a chute that spits out an output based on those inputs  (see figure above).
 A function can do anything, and it can even be random in its behavior.
 For example, the `rnorm()` function in R takes a number, and gives you that many random, normally distributed, numbers in response.
-See [Chapter 19 of R for Data Science](https://r4ds.had.co.nz/functions.html) for an extended discussion, but here is an example function to get you started:
+See [Chapter 25 of R for Data Science](https://r4ds.hadley.nz/functions) for an extended discussion, but here is an example function to get you started:
 
 ```{r}
 one_run <- function( N, mn ) {

@@ -47,7 +47,7 @@ For instance, in a regression model, one could first use a statistical test for 
 In particular, with simulation, we can verify a proposed pipeline is _valid_, meaning that the conclusions it draws are correct at a given level of certainty.
 
 Simulating an analytic pipeline can be used for statistical inference as well.
-With bootstrap or parametric bootstrap approaches, for example, one is, in essence, repeatidly simulating data and putting it through an entire analytic pipeline to assess how stable estimation is.
+With bootstrap or parametric bootstrap approaches, for example, one is, in essence, repeatedly simulating data and putting it through an entire analytic pipeline to assess how stable estimation is.
 How much a final point estimate varies across the simulation trials is the standard error for the context being simulated; an argument by analogy is what connects this to inference on the original data and point estimate.
 
 
@@ -83,7 +83,7 @@ For another example, recent work has developed the Fixed-Intercept, Random Coeff
 
 ### Conducting Power Analyses
 
-By repeatidly simulating and then analyzing data from a guessed-at world, a researcher can easily calculate the power to detect the effects so modeled, if that world were true.
+By repeatedly simulating and then analyzing data from a guessed-at world, a researcher can easily calculate the power to detect the effects so modeled, if that world were true.
 This can allow for power analyses far more nuanced and tailored to a given circumstance than typical power calculators.  In particular, simulation can be useful for the following:
 
  * Available formulas for power analysis in multi-site block- or cluster-randomized trials (such those implemented in the Optimal Design and PowerUp! Software) assume that sites are of equal size and that outcome distributions are unrelated to site size. Small deviations from these assumptions are unlikely to change the results, but in practice, researchers may face situations where sites vary quite widely in size or where site-level outcomes are related to site size.  Simulation can estimate power in this case.
@@ -101,7 +101,7 @@ The central office then assigns students to schools via a lottery procedure wher
 As a consequence, students have a random probability of assignment to the schools on their list, depending on their choices, the choices of other students, and their lottery numbers.
 
 We can use this process to estimate the causal impact of being assigned to one school vs. another, but only if we have those probabilities of school assignment.
-We can obtain them via simulation: we repeatidly run the school lottery over and over, and record where everyone gets assigned.
+We can obtain them via simulation: we repeatedly run the school lottery over and over, and record where everyone gets assigned.
 Using these final propensity scores we can move forward with our analysis.
 
 Another famous area of process simulation are climate models, where researchers simulate the process of climate change.

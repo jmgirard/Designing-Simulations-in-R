@@ -55,7 +55,7 @@ How much a final point estimate varies across the simulation trials is the stand
 ### Assessing performance under misspecification
 
 Many statistical estimation procedures can be shown (through mathematical analysis) to perform well when the assumptions they entail are correct.
-However, it practice it is often of interest to also understand their robustness---that is, their performance when one or more of the assumptions is incorrect.
+However, in practice it is often of interest to also understand their robustness---that is, their performance when one or more of the assumptions is incorrect.
 For example, how important is the normality assumption underlying multilevel modeling?
 What about homoskedasticity?
 

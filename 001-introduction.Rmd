@@ -187,7 +187,7 @@ options(list(dplyr.summarise.inform = FALSE))
 These lines of code are pretty much the header of any script we use.
 
 We use methods from the "tidyverse" for cleaner code and some nice shortcuts.
-See the online, free and excellent (https://r4ds.had.co.nz/)[R for Data Science textbook] for more on the tidyverse.
+See the online, free and excellent (https://r4ds.hadley.nz/)[R for Data Science textbook] for more on the tidyverse.
 We will cite portions of this text throughout this manuscript.
 
 

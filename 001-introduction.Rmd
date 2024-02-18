@@ -163,7 +163,7 @@ We generally adhere to a simple, modular approach to building simulations.
 We (repeatidly) demonstrate a set sequence of steps, going from coding a data generating process, to the estimation methods, to the code for evaluating a simulation result, to the final multifactor experiment.
 But our many case studies are not all precisely the same; the idea of this sequence of steps is paramount, but coding is not a rigid process.
 Different aspects of a particular problem may call for doing things in a slightly different manner.
-And often, it is merely an issue of style, or choice.
+And often, it is merely an issue of style or choice.
 
 We believe that the variants of the coding pattens we showcase are just as important as the patterns themselves, as they take us out of a rigid model of thinking about the creation of simulations.
 The different takes on the same idea will, we hope, expand the sense of what is possible, and also triangulate the core coding principles we are attempting to espouse.

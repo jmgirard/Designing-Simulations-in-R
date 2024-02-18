@@ -118,7 +118,7 @@ Are the simulated data realistic?
 Was the simulation systematic in exploring a wide variety of scenarios, allowing for truly general conclusions?
 
 The best way to answer these arguments is through transparency: explicitly state what was done, and provide code so people can tweak it to run their own simulations.
-Another important component of a robust argument is systematic variation: design one simulations so that one can easily simulate across a range of scenarios.
+Another important component of a robust argument is systematic variation: design one's simulations so that one can easily simulate across a range of scenarios.
 Once that is in place, systematically explore myriad scenarios and report all of the results.
 
 Due to the flexibility in the design of simulations, they are held in great skepticism by many.
